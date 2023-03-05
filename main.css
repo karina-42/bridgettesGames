@@ -1,0 +1,179 @@
+html {
+  text-align: center;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f1e4e8;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header-title {
+  font-size: 5.5rem;
+  color: #b97375;
+  text-shadow: gray 2px 1px 2px;
+}
+
+#title {
+  font-size: 3.8rem;
+  text-shadow: silver 1px 1px 2px;
+}
+
+#problem {
+  font-size: 5.5rem;
+  margin-bottom: 0%;
+}
+
+#points {
+  font-size: 4.5rem;
+  margin-bottom: 0;
+}
+
+main {
+  display: flex;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  border: 5px solid #e2dcde;
+  /* border-right: none; */
+  background-color: #ceb1be;
+}
+
+.side-btn {
+  border: none;
+  font-size: 2.5rem;
+  /* margin: 5%; */
+  color: rgb(35, 34, 34);
+  padding: .4em;
+  border-radius: 8px;
+  box-shadow: 0 9px #999;
+}
+
+.side-btn:active {
+  background-color: #b97375;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.side-btn:disabled {
+  box-shadow: none;
+  color: #666;
+  transform: none;
+  background-color: #d8c4cd;
+}
+
+span {
+  font-size: 2rem;
+  border: 2px solid #ba85ac;
+  float: right;
+}
+
+#pointsBtn, .ansBtn {
+  margin: 4%;
+  font-size: 2.5rem;
+  padding: .4em;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 1px 1px 20px #999;
+}
+
+.ansBtn {
+  width: 5em;
+  height: 3em;
+  background-color: #5ce1f5;
+}
+
+#pointsBtn:active {
+  background-color: #ba85ac;
+  box-shadow: -1px 1px 50px #666;
+  transform: translateY(4px);
+}
+
+.games {
+  height: 100%;
+  width: 100%;
+}
+.screen {
+  border: 10px solid brown;
+  background-color: RGB(39,76,67);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newWordAnswer {
+  font-size: 5rem;
+}
+
+#problemImg {
+  width: 100%;
+}
+
+.ansImg {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#ol {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.top5listItems {
+  border: 2px black solid;
+  margin: 6%;
+  min-height: 2em;
+  min-width: 6em;
+  font-size: 3.5rem;
+  text-shadow: 0px 0px 5px #282323;
+  line-height: 2em;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+#position1 {
+  background-color: #EBBEB7;
+}
+
+#position2 {
+  background-color: #F08F89;
+}
+
+#position3 {
+  background-color: #F55F5C;
+}
+
+#position4 {
+  background-color: #FA302E;
+}
+
+#position5 {
+  background-color: #FF0000;
+}
+
+.highlightOriginalWord {
+  background-color: #9c2222;
+  text-shadow: 0 0 10px black;
+  box-shadow: 0px 0px 10px #9c2222;
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: 2px solid gray;
+}
+
+a {
+  font-size: 2.5rem;
+  color: white;
+  display: block;
+}
